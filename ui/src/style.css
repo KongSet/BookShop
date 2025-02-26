@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+a {
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -10,13 +10,70 @@ body {
 }
 
 #header {
-    background-color: #f3f5f8;    
+    background: rgb(142, 84, 250);
+    
 }
 
 .scroll-active {
     box-shadow: 0 5px 15px 0.06px;
+    background-color: aliceblue;
+}
+
+.scroll-active .navbar-brand {
+    color: black !important;
+}
+
+.scroll-active .nav-link {
+    color: black !important;
+}
+
+.img {    
+    width: 200px;   
+    margin: 0 auto; 
+}
+
+.img img {
+    width: 200px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white !important;
+}
+
+p {
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.nav-link {
+    margin: 0 12px;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+#cart-icon span {
+    position: relative;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background-color: blue;
+    color: white;
+    top: -6px;
+    right: -3px;    
 }
 
 #slider {
-    height: 1000px;
+    height: 510px;
 }
